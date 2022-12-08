@@ -1,0 +1,11 @@
+@media(max-width:850px){
+    header div.wrap {
+        padding: 10px 20px;
+    }
+    header div.wrap h1{
+        font-size: 22px !important;
+    }
+    section.dashboard .content-modul h1{
+        margin: 0;
+    }
+}

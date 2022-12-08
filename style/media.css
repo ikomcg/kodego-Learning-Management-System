@@ -1,0 +1,46 @@
+@media(max-width:1000px){
+    section .home-kodego .wrap #kodego{
+        display: none !important;
+    }
+    div.form-login{
+        width: 50%;
+    }
+}
+@media(max-width:700px){
+    header > div {
+        padding: 0 15px;
+    }    
+    header .left-header img{
+        width: 70%;
+    }
+    header .left-header span{
+        font-size: 22px;
+    }
+    div.form-login{
+        width: 80%;
+    }
+}
+@media(max-width:600px){
+    div.form-login span {
+        font-size: 14px;
+        font-weight: 600;
+    }
+    div.form-login h2 {
+        font-size: 35px;
+    }
+}
+@media(max-width:400px){
+    header .left-header span {
+        font-size: 18px;
+    }
+    div.form-login{
+        width: 90%;
+    }
+}
+@media(max-width:1000px){
+   
+}
+
+@media(max-width:1000px){
+   
+}

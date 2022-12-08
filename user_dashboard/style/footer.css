@@ -1,0 +1,25 @@
+footer{
+    margin-top: 200px;
+    background-color: rgb(1,1,46);
+}
+footer ul li img{
+    max-width: 20px;
+    width: 100%;
+    margin: 0 5px;
+    height: 20px;
+}
+footer span{
+    font-size: 25px;
+    color: #ffffffff;
+}
+footer div.wrap{
+    padding: 30px 0;
+    text-align: center;
+    color: #ffffffff;
+}
+footer .footer-bottom{
+    border-top: .5px solid rgb(172, 172, 172);
+}
+footer h5{
+    font-size: 14px;
+}

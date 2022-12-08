@@ -1,0 +1,219 @@
+@media(max-width:1200px){
+    header button#btn-navbar{
+        display: block !important;
+    }
+    section.dashboard div.wrap div.nav-bar{
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 999999;
+        background-color: #ffffffff;
+        height: 100vh;
+        left: -500px;
+        transition: ease-in-out .5s;
+    }
+    section.dashboard div.wrap{
+        flex-flow: column wrap;
+        padding: 0 35px;
+    }
+    section.dashboard div.wrap div.content-modul{
+        width: 100% !important;
+       
+    }
+    /* section.dashboard .column-modul{
+        width: 33.3333%; 
+    } */
+    section.dashboard .right-modul {
+        display: flex !important;
+        align-items: start !important;
+        margin-top: 50px !important;
+        width: 100% !important;
+        margin: 0;
+
+    }
+    section.dashboard .right-modul > div.calendar{
+        width: 95% !important;
+        margin: 0 auto;
+    }
+}
+@media(max-width:900px){
+    section.dashboard div.wrap{
+        padding: 0 20px;
+    }
+    section.dashboard .column-modul{
+        width: 33.3333%;
+    }
+    section.dashboard .content-modul .top-modul #add_course_page > div{
+        width: 50% !important;
+    }
+}
+@media(max-width:650px){
+    div.card-row{
+        width: 33.3333%;
+    }
+}
+@media(max-width:600px){
+    section.dashboard .right-modul {
+        flex-flow: column wrap;
+    }
+    section.dashboard .content-modul .top-modul #add_course_page > div {
+        width: 70% !important;
+    }
+    header div.wrap {
+        padding: 10px 20px;
+ 
+    }
+    div.student_profile img {
+        max-width: 130px;
+        width: 100%;
+        height: 200px;
+        margin-bottom: 50px;
+    }
+    section.dashboard .message:nth-child(2) .send_message#send-message {
+        display: none;
+        width: 100% !important;
+        z-index: 999999;
+    }
+    section.dashboard div.wrap div.content-modul .col-inbox#my_message_group{
+        width: fit-content;
+        margin-left: 55% !important;
+    }
+    section.dashboard div.wrap div.content-modul .message.group .col-inbox{
+        width: fit-content;
+        margin-left: 5px !important;
+    }
+    section.dashboard div.wrap div.content-modul .message.group .col-inbox div.d-flex img {
+        max-width: 20px;
+        width: 100%;
+        height: 20px;
+    }
+    section.dashboard .right-modul > div{
+        width: 100%;
+        margin: 10px 0;
+    }
+    form .form_student div, .form_parents div {
+        width: 48%;
+    }
+    
+}
+@media(max-width:550px){
+    header div.wrap {
+        padding: 10px 20px;
+    }
+    section.dashboard .content-modul h1 {
+        font-size: 22px;
+    }
+    section.dashboard .content-modul .top-modul button#btn_add_course{
+        font-size: 20px !important;
+        padding: 0 5px  !important;
+    }
+    section.dashboard .column-modul{
+        width: 50%;
+    }
+    section.dashboard .column-modul div.info-modul {
+        margin: 0 10px;
+    }
+    section.dashboard .column-modul div.info-modul h2 {
+        font-size: 15px;
+    }
+    section.dashboard .column-modul div.info-modul span {
+        color: #ffffffff;
+        font-size: 12px;
+    }
+    div.content-modul .col-announcement .col-announcement-upload div.announce-message img {
+        height: 340px;
+    }
+    div.content-modul .col-announcement .col-announcement-upload div.announce-message p {
+        font-size: 14px;
+        margin-left: 25px;
+    }
+    div.card-row{
+        width: 50%;
+        height: 210px !important;
+    }
+}
+@media(max-width:450px){
+    section.dashboard .content-modul .top-modul#message-top {
+        flex-flow: column wrap;
+        align-items: flex-start !important;
+        padding: 10px;
+    }
+    section.dashboard .content-modul .top-modul >div{
+        /* display: flex;
+        justify-content: space-around;
+        margin: 0 !important;
+        width: 100%; */
+    }
+    section.dashboard div.wrap div.content-modul .col-inbox .top-inbox .d-flex span {
+        font-size: 16px;
+    }
+    section.dashboard div.wrap div.content-modul .col-inbox .message-inbox p{
+        font-size: 16px;
+    }
+    div.content-modul button{
+        font-size: 12px;
+    }
+}
+@media(max-width:400px){
+    header div.wrap .right-user i.bi.bi-bell-fill, i.bi.bi-envelope-fill {
+        font-size: 14px;
+    }
+    header div.wrap span {
+        font-size: 16px;
+    }
+    header div.wrap div.box-acc {
+        width: calc(100% + 174px);
+    }
+    section.dashboard div.wrap div.nav-bar ul li a{
+        font-size: 16px;
+    }
+    section.dashboard .content-modul .top-modul #add_course_page > div {
+        width: 80% !important;
+    }
+    section.dashboard .content-modul  button#add_course{
+        font-size: 18px !important;
+        padding: 5px 10px  !important;
+    }
+    section.dashboard .column-modul img {
+        height: 180px;
+    }
+    section.dashboard .right-modul h1{
+        font-size: 22px;
+    }
+    section.dashboard .right-modul .online span {
+        font-size: 22px;
+    }
+    footer span {
+        font-size: 18px;
+        color: #ffffffff;
+    }
+    div.content-modul .col-announcement .col-announcement-upload .tea-upload img {
+        max-width: 50px;
+        width: 100%;
+    }
+    div.content-modul .col-announcement .col-announcement-upload .tea-upload .name-date-announce span:first-child {
+    font-size: 18px;
+}
+div.content-modul .col-announcement .col-announcement-upload .tea-upload .name-date-announce span:last-child {
+    font-size: 12px;
+}
+    div.content-modul .col-announcement .col-announcement-upload div.announce-message img {
+        height: 240px;
+    }
+    div.card-row{
+        /* width: 100%; */
+    }
+    div.content-modul .col-announcement .col-announcement-upload .tea-upload {
+        margin: 10px 20px 0px;
+    }
+}
+@media(max-width:330px){
+   
+    section.dashboard div.wrap{
+        padding: 0 10px;
+    }
+    section.dashboard .column-modul{
+        width: 100%;
+    }
+    
+}

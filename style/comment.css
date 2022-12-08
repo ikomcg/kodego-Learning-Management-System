@@ -1,0 +1,121 @@
+section.comment div.wrap div.comment-model{
+    margin: 100px 0 100px;
+    width: 60%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    border-radius: 5px;
+    background-color: #f7f7f7;
+    overflow: hidden;
+}
+section.comment div.wrap div.comment-model .image-back{
+    background-image: linear-gradient(rgba(127, 255, 212 ,.2),rgba(127, 255, 212, .8)),url('../image/comment/tech-meeting-flatlay.jpg');
+    background-size: 900px;
+    background-repeat: no-repeat;
+    height: 300px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    
+  
+}
+section.comment div.wrap div.comment-model .image-back h5{
+    font-size: 45px;
+    font-weight: 900;
+    color: rgb(1, 1, 46);
+    
+}
+
+section.comment div.wrap div.comment-model .image-back button{
+    padding: 5px 60px;
+    color:#ffffffff;
+    font-size: 25px;
+    background-color: rgb(1, 1, 46);
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    margin: 10px 0;
+
+}
+section.comment div.wrap div.comment-model .image-back button:hover{
+    transform: scale(1.05);
+}
+section.comment div.wrap div.comment-model .log-in .user-log{
+    display: flex;
+    padding: 10px;
+
+}
+section.comment div.wrap div.comment-model .log-in .user-log .top-info{
+    margin-top: 5px;
+}
+section.comment div.wrap div.comment-model .log-in  .form-floating{
+    width: 80%;
+    margin-left: 15%;
+}
+section.comment div.wrap div.comment-model .log-in  .form-floating textarea{
+    resize: none;
+}
+section.comment div.wrap div.comment-model .log-in .btn-comment{
+    width: 95%;
+}
+section.comment div.wrap div.comment-model .log-in .btn-comment button{
+    padding: 5px 20px;
+    color:#ffffffff;
+    font-size: 16px;
+    background-color: rgb(1, 1, 46);
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    margin: 10px 0;
+}
+section.comment div.wrap div.comment-model .log-in img{
+    width: 10%;
+    height: 70px;
+    margin: 0 10px;
+}
+section.comment div.wrap div.comment-model .comment-column{
+    background-color: #f7f7f7;
+    padding: 20px 15px;
+}
+section.comment div.wrap div.comment-model .comment-column h5{
+    font-size: 23px;
+    
+}
+section.comment div.wrap div.comment-model .comment-column h5::after{
+    content: '';
+    width: 100%;
+    height: 2.5px;
+    background: linear-gradient(to right, #7fffd4 17%, #696969 0);
+    display: block;
+}
+section.comment div.wrap div.comment-model .comment-column .user-comment{
+    display: flex;
+    width: 100%;
+    margin: 50px 0;
+
+}
+section.comment div.wrap div.comment-model .comment-column .user-comment img{
+    width: 10%;
+    height: 70px;
+    margin: 0 20px;
+}
+section.comment div.wrap div.comment-model .comment-column .user-comment .info-comment{
+    margin: 5px 0;
+}
+section.comment div.wrap div.comment-model .comment-column .user-comment .info-comment .top-info {
+    margin-bottom: 10px;
+}
+section.comment div.wrap div.comment-model .comment-column .user-comment .info-comment .top-info h6{
+    font-size: 18px;
+
+}
+section.comment div.wrap div.comment-model .comment-column .user-comment .info-comment .top-info span{
+    font-size: 14px;
+}
+section.comment div.wrap div.comment-model .comment-column .user-comment .info-comment p{
+    font-size: 18px;
+    margin-left: 15px;
+}
+section.comment div.wrap >div:last-child{
+
+    width: 35%;
+}
+section.comment div.wrap .adds-show{
+    width: 100%;
+    height: 500px;
+    background-color: #7fffd4;
+}

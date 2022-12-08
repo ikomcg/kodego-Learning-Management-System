@@ -1,0 +1,155 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Abyssinica SIL', serif;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    /* height: 100vh; */
+    /* font-family: 'Playfair Display', serif; */
+    
+}
+
+* li , a{
+    list-style: none;
+    text-decoration: none;
+    color: #ffffffff;
+}
+.wrap{
+    max-width: 1500px;
+    width: 100%;
+    margin: 0 auto;
+}
+ul,h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+.bg-color{
+    background-color: rgb(1, 1, 46);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+}
+header{
+    background-color: rgba(255, 255, 255, 1);
+
+}
+header::before{
+    content: '';
+    width: 100%;
+    height: 2px;
+    background-color: #14599d;
+    display: block;
+}
+header  > div {
+    padding: 0 50px;
+}
+header .left-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding: 10px 0; */
+    /* height: 110px; */
+}
+header .left-header img{
+    max-width: 50px;
+    width: 100%;
+    
+}
+header .left-header a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column nowrap;
+}
+header .left-header  span{
+    color: #14599d;
+    font-size: 30px;
+}
+header .right-header ul{
+    width: auto;
+}
+header .right-header ul li{
+    list-style: none;
+    position: relative;
+
+}
+header .right-header ul li a{
+    text-decoration: none;
+    color: #ffffffff;
+    font-size: 22px;
+    font-weight: 500;
+}
+header .right-header button.btn.btn-login{
+    background-color: rgba(39,66,102,255);
+    color: #ffffffff;
+    border-radius: 5px;
+    border-color: none;
+    padding: 10px 50px;
+    margin-left: 20px;
+
+}
+
+header .right-header .login-register{
+    position: relative;
+}
+header .right-header .login-register #login-box{
+    display: none;
+}
+header .right-header .login-register .box-acc{
+    position: absolute;
+    z-index: 9999;
+    top: 100%;
+    right: 0;
+    width: calc(100% + 300px);
+    background-color: rgb(1, 1, 46) ;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    padding: 20px 10px;
+    border-radius: 5px;
+
+}
+header .right-header .login-register .box-acc img{
+    max-width: 100px;
+    width: 100%;
+    
+}
+header .right-header .login-register .box-acc .inf-acc{
+    padding: 0 15px;
+}
+header .right-header .login-register .box-acc .inf-acc h2{
+    color: #ffffffff;
+    font-size: 30px;
+}
+header .right-header .login-register .box-acc .inf-acc p{
+    color: #ffffffff;
+    font-size: 14px;
+}
+header .right-header .login-register .box-acc .inf-acc .btn-acc{
+    margin: 25px 0;
+}
+header .right-header .login-register .box-acc .inf-acc .btn-acc button{
+    margin: 0;
+    color: #ffffffff;
+    padding: 7px 20px;
+    border-radius: 5px;
+}
+header .right-header .login-register .box-acc .inf-acc .btn-acc button:nth-child(1){
+    background-color:#14599d;
+    border: none;
+}
+header .right-header .login-register .box-acc .inf-acc .btn-acc button:nth-child(2){
+    background-color: transparent;
+    border:1px solid #14599d;
+    
+}
+header .right-header .login-register .box-acc .inf-acc .btn-acc button:nth-child(2):hover{
+    background-color: #14599d;
+}

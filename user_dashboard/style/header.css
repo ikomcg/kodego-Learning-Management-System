@@ -1,0 +1,80 @@
+body{
+    background-color: #fffbfbdd;
+}
+header::before{
+    content: '';
+    width: 100%;
+    height: 2px;
+    background-color: #14599d;
+    display: block;
+}
+header{
+    background-color:rgb(1,1,46);
+}
+header div.wrap{
+    padding: 10px 50px;
+}
+header div.wrap img{
+    max-width: 60px;
+    width: 100%;
+    clip-path: circle();
+}
+header div.wrap span{
+    color: #ffffffff;
+    font-size: 20px;
+
+}
+header div.wrap button{
+    background-color: transparent;
+    border: none;
+
+}
+header div.wrap button:hover{
+    text-decoration: underline;
+    text-decoration-color: #ffffffff;
+}
+header div.wrap .right-user{
+    position: relative;
+    
+
+}
+header div.wrap .right-user i.bi.bi-bell-fill, i.bi.bi-envelope-fill{
+    color: #ffffffff;
+    font-size: 18px;
+    margin-left: 10px;
+}
+header div.wrap .right-user i.bi.bi-bell-fill::before{
+    transform: rotate(25deg);
+}
+header div.wrap div.box-acc{
+    position: absolute;
+    z-index: 99999;
+    background-color: rgb(1,1,46);
+    padding: 10px 15px;
+    right: 0;
+    width: calc(100% + 200px);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    font-weight: 400;
+}
+
+header div.wrap #logout-box{
+    display: none;
+}
+header div.wrap div.box-acc h2{
+    color: #ffffffff;
+    font-size: 25px;
+    margin: 10px 0;
+}
+header div.wrap div.box-acc span{
+    font-size: 14px;
+ 
+}
+
+header div.wrap div.box-acc button{
+    background-color:#14599d;
+    border: none;
+    color: #ffffffff;
+    font-size: 18px;
+    padding: 5px 20px;
+    margin: 10px 0;
+}

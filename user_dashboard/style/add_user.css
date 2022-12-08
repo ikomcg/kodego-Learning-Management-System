@@ -1,0 +1,26 @@
+.open-modal{
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    
+}
+
+#card_add_user{
+    display: none;
+}
+div#card_add_user .form_student > div{
+    width: 33.333%;
+} 
+div#card_add_user .form_student > div input{
+    width: 90%;
+}
+div#card_add_user button{
+    background-color: #14599d;
+    color: #ffffffff;
+    padding: 5px 15px;
+    outline: none;
+    border: none;
+    
+}

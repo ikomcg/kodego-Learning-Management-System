@@ -1,0 +1,24 @@
+div.right-modul  h3{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+div.right-modul .top-right  , .mid-right, .bot-right{
+    padding: 10px;
+}
+div.right-modul ul li{
+    margin-bottom: 10px;
+    font-size: 20px;
+    border-bottom: 1px solid gray;
+}
+div.right-modul ul li i {
+    margin-left: 10px;
+}
+div.right-modul .bot-right p {
+    font-size: 14px;
+    margin-left: 35px;
+}
+div.right-modul .bot-right img{
+    max-width: 30px;
+}

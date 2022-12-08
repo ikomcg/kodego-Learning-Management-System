@@ -1,0 +1,44 @@
+
+footer{
+    background-color: rgb(1, 1, 46);
+    margin-top: 260px;
+
+}
+footer .wrap{
+    margin: 50px auto;
+
+}
+footer  .bot-footer{
+    text-align: center;
+    border-top: 1px solid rgb(184, 183, 183);
+    padding: 20px 0;
+    font-size: 18px;
+
+}
+footer  span{
+    color: #ffffffff;
+    font-size: 25px;
+    font-weight: 400;
+
+
+}
+footer ul li{
+    margin: 0 5px;
+    list-style: none;
+    font-size: 18px;
+    font-weight: 400px;
+    margin-bottom: 10px;
+}
+footer ul li a img{
+    max-width: 20px;
+    width: 100%;
+}
+footer hr{
+    background-color: #ffffffff;
+    height: 2px;
+}
+footer h5{
+    color: #ffffffff;
+    font-size: 12px;
+    font-weight: 100;
+}

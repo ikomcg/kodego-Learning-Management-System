@@ -1,0 +1,134 @@
+
+section.home-page-top {
+    background-image:linear-gradient(rgba(0,0,0,.4),rgba(0,0,0, .4)), url('../images/home-page/on-ground_coding_bootcamps_2.jpg');
+    background-color: rgba(0, 0, 0, .1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+section.home-page-top::after{
+    content: '';
+    width: 100%;
+    height: 10px;
+    background-color: #14599d;
+    position: absolute;
+    bottom: 0;
+}
+section .home-kodego{
+    width: 100%;
+}
+section .home-kodego .wrap{
+   
+}
+section .home-kodego .wrap  #kodego {
+ 
+    /* padding: 10px 100px; */
+    width:30%;
+}
+section .home-kodego .wrap  #kodego button{
+    border-radius: 0;
+    margin: 10px auto;
+}
+section .home-kodego .wrap img{
+    margin: 0 auto;
+    max-width: 130px;
+    width: 100%;
+}
+section .home-kodego .wrap > div h1{
+    font-size: 30px;
+    color: #ffffffff;
+}
+section .home-kodego .wrap > div p{
+    font-size: 18px;
+    margin: 10px 0;
+    color: #ffffffff;
+
+}
+section.courses{
+    margin: 80px 0;
+}
+section.courses div.top-courses{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-self: center;
+}
+section.courses div.top-courses h2{
+    font-size: 65px;
+    color: #14599d;
+    font-weight: 600;
+}
+section.courses div.top-courses span{
+    font-size: 25px;
+    color: black;
+    font-size: 400;
+}
+section.courses .row-courses{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+
+}
+section.courses .row-courses > div{
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 70px 0;
+    width: 30%;
+}
+section.courses .row-courses > div > div{
+    margin: 0 auto;
+    width: 100%;
+}
+section.courses .row-courses > div > div img{
+    width: 100%;
+    height: 300px;
+}
+section.courses .row-courses > div > div > div{
+    padding: 20px;
+}
+section.courses .row-courses > div > div h3{
+    font-size: 25px;
+    font-weight: 800;
+}
+section.courses .row-courses > div > div p{
+    margin: 10px 0;
+    font-size: 18px;
+    font-weight: 400;
+}
+section.features .row-content{
+    margin: 80px 0;
+}
+section.features .col-content {
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    text-align: center;
+    width: 23%;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+section.features .col-content img{
+    max-width: 200px;
+    width: 100%;
+    height: 150px;
+    margin: 0 auto;
+}
+section.features .col-content .feat-info{
+    padding: 0 15px;
+    margin: 10px 0;
+}
+section.features .col-content .feat-info h3{
+    font-size: 20px;
+    font-weight: 500;
+    color: #000000;
+}
+section.features .col-content .feat-info p{
+    margin: 15px 0;
+    font-size: 18px;
+    color: #000000;
+}

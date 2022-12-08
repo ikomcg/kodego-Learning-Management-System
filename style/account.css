@@ -1,0 +1,90 @@
+div.form-login{
+  background-color: #ffffffff;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  /* margin-right: 100px; */
+  padding: 15px;
+  border-radius: 5px;
+  width: 30%;
+  text-align: center;
+}
+div.form-login h2{
+  color: #14599d;
+  font-size: 40px;
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+div.form-login span{
+  font-size: 18px;
+  font-weight: 600;
+}
+div.form-login a {
+  color: #14599d;
+}
+div#register-form {
+  position: absolute;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  left: 0; 
+  right:0; 
+  top:0; 
+  bottom:0; 
+  background-color: rgba(0, 0, 0, 0.7);
+
+}
+div.register-form > div{  
+  padding: 15px;
+  text-align: center;
+  border-radius: 10px;
+  
+}
+div.register-form h2{
+  font-size: 40px;
+  color: #14599d;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+div.register-form span{
+  font-size: 20px;
+  font-weight: 500;
+
+  
+}
+div.register-form div.form{
+  display: flex;
+  flex-flow: row wrap;
+  margin-top: 10px;
+}
+div.register-form div.form > div{
+  display: flex;
+  flex-flow: column nowrap;
+  text-align: start;
+  width: 33.333%;
+  
+}
+div.register-form div.form > div label{
+  font-size: 18px;
+
+}
+div.register-form div.form > div input , select{
+  /* width: 100%; */
+  padding: 8px 10px;
+  border-radius: 5px;
+  border: 1px solid #d3d3d3;
+  outline: none;
+  width: 90%;
+}
+div.register-form div.form > div  select{
+  /* width: 100%; */
+  padding: 8px 10px;
+  border-radius: 5px;
+  border: 1px solid #d3d3d3;
+  outline: none;
+  width: 90%;
+}
+div.register-form button{
+    margin: 20px 0;
+}
+div.register-form div.form > div input:focus{
+  box-shadow: rgba(127, 204, 255, 0.568) 0px 5px 15px;
+}

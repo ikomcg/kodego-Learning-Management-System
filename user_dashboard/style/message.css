@@ -1,0 +1,119 @@
+div.content-modul .message-slide{
+display: -webkit-box;
+overflow: hidden;
+}
+div.content-modul button {
+    border: none;
+    padding: 5px 10px;
+    color: #ffffffff;
+    background-color: #14599d;
+}
+
+section.dashboard div.wrap div.content-modul{
+    width: 70% !important;
+}
+section.dashboard div.wrap div.content-modul .col-inbox{
+    display: flex;
+    flex-flow: column nowrap;
+}
+section.dashboard div.wrap div.content-modul .col-inbox div.d-flex img{
+    max-width: 50px;
+    width: 100%;
+    height: 50px;
+}
+section.dashboard div.wrap div.content-modul .col-inbox{
+    background-color:aliceblue;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    width: 90%;   
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+   
+    
+}
+section.dashboard div.wrap div.content-modul .message.group {
+  width: 100%;
+}
+section.dashboard div.wrap div.content-modul .message.group .col-inbox{
+    max-width: 400px;
+    width: 100%;
+    margin: 0;
+    margin-bottom: 20px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 10px;
+}
+section.dashboard div.wrap div.content-modul .col-inbox#my_message_group{
+    text-align: right;
+    background: bisque;
+    max-width: 400px;
+    margin: 0;
+    float: right;
+    margin-right: 35px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 0;
+}
+.message_column::-webkit-scrollbar{
+    display: none;
+}
+section.dashboard div.wrap div.content-modul .col-inbox#my_message_group .message-inbox{
+    margin-left: 0;
+    margin-right: 30px;
+}
+section.dashboard div.wrap div.content-modul .message.group .col-inbox div.d-flex img {
+    max-width: 35px;
+    width: 100%;
+    height: 30px;
+}
+section.dashboard div.wrap div.content-modul .col-inbox .top-inbox .d-flex{
+    margin: 0 10px;
+    
+}
+section.dashboard div.wrap div.content-modul .col-inbox .top-inbox .d-flex span{
+    font-size: 18px;
+    color: black;
+}
+section.dashboard div.wrap div.content-modul .col-inbox .top-inbox .d-flex span.date{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+section.dashboard div.wrap div.content-modul .col-inbox .top-inbox .d-flex span.date i{
+   margin-right: 5px;
+}
+section.dashboard div.wrap div.content-modul .col-inbox .message-inbox{
+    margin-top: 5px;
+    margin-left: 30px;
+    
+}
+section.dashboard div.wrap div.content-modul .col-inbox .message-inbox p{
+    font-family: 'Roboto', sans-serif;
+}
+section.dashboard .right-modul {
+    width: 20% !important;
+}
+section.dashboard img{
+    max-width: 50px;
+    height: 50px;
+    width: 100%;
+    margin-right: 15px;
+}
+section.dashboard .right-modul button{
+    width: max-content;
+    float: right;
+    margin-right: 10px;
+}
+section.dashboard .message:nth-child(2) .send_message{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    background-color: antiquewhite;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50%;
+    padding: 10px 20px;
+    border-radius: 5px;
+} 
+section.dashboard .message:nth-child(2) .send_message#send-message{
+    display: none;
+}
